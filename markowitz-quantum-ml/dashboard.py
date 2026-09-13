@@ -7,6 +7,8 @@ Arquitetura Modular: DataManager | MLForecaster | QuantumOptimizer
 
 "pip install qiskit qiskit-optimization qiskit-"
 
+"python -m pip install customtkinter"
+
 """
 
 import customtkinter as ctk
