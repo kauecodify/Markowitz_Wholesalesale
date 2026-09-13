@@ -19,6 +19,21 @@ Este projeto é uma aplicação desktop profissional que integra:
 
 ---
 
+# Arquitetura
+
+```bash
+
+markowitz-quantum-ml/
+├── dashboard.py              # Aplicação principal
+├── requirements.txt          # Dependências
+├── README.md                # Este arquivo
+├── cloud_cache_stack.json   # Cache de sincronização (auto-gerado)
+└── data/                    # Pasta para arquivos de dados
+    ├── exemplo_acoes.csv
+    └── exemplo_vendas.xlsx
+
+```
+
 ## Funcionalidades
 
 ### Previsão com Machine Learning
